@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pack Steam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/painel.css">
+</head>
+
+<body>
+
+    <section class="bg-menu">
+        <div class="menu-left">
+            <div class="logo">
+                <h2>Pack Steam</h2>
+            </div>
+            <div class="menus">
+                <a href="#" class="menu-item">
+                    <p>Dashboard</p>
+                </a>
+                <div class="logo2">
+                    <h2> <i class="fas fa-user"></i>&nbsp; Luis Thiago</h2>
+                </div>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="menu-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex align-items-center mt-4 conteiner-exit">
+
+                            <h1 class="title-page">
+                                <b>Dashboard</b>
+                            </h1>
+                            <h1 class="title-page2">
+                                <b> <i class="fa-solid fa-circle-xmark"></i>&nbsp; Voltar</b>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteudo-inner">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+
+                            <div class="menus-config"><!-- COMEÇO DO MENU -->
+                                <div class="card">
+                                    <p>Total de Contas <b><br>16</b></p>
+                                </div>
+                                <div class="card">
+                                    <p>Última atualização<b><br>26/11/2024</b></p>
+                                </div>
+                            </div> <!-- FIM DO MENU -->
+
+                            <div class="col-12 mt-5 " id="historico">
+                              
+                                    <div class="search"> <!-- COMEÇO SEARCH -->
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <input id="meuInput" type="text" class="form-control"
+                                            placeholder="Pesquisar jogos...">
+
+                                    </div><!-- FIM SEARCH -->
+                                    
+                                
+                                <div class="card card-table mt-5  card-table"><!-- COMEÇO DAS CARDS DE INFORMAÇOES -->
+                                    <div class="table-responsive"> <!-- CARD MAIN DA ESTRUTURA -->
+                                        <table id="data-table" class="table data-table">
+                                            <thead>
+                                                <tr class="conteiner-card">
+                                                    <th>#</th>
+                                                    <th>Jogo</th>
+                                                    <th>Contas</th>
+                                                    <th>Ações</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div><!-- CARD MAIN DA ESTRUTURA -->
+                                    <div class="table-responsive2"><!-- CARD MAIN DA ESTRUTURA 2 -->
+                                        <table id="data-table" class="table data-table">
+                                            <tbody>
+                                                <tr class="conteiner-dados">
+                                                    <td>1</td>
+                                                    <td>Game</td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle"
+                                                                type="button" data-bs-toggle="dropdown"
+                                                                aria-expanded="false">
+                                                                <i class="fas fa-bars"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Editar</a></li>
+                                                                <li><a class="dropdown-item" href="#">Excluir</a></li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><!-- CARD MAIN DA ESTRUTURA 2 -->
+                                </div><!-- FIM DAS CARDS DE INFORMAÇOES -->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
